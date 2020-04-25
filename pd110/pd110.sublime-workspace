@@ -3,14 +3,38 @@
 	{
 		"selected_items":
 		[
+			[
+				"fo",
+				"forms"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "src/templates/inicio.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 204,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/boletin/views.py",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/boletin/models.py",
+			"settings":
+			{
+				"buffer_size": 298,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -48,10 +72,18 @@
 	"expanded_folders":
 	[
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110",
-		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src"
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110"
 	],
 	"file_history":
 	[
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/forms.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/models.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110/settings.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/admin.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110/urls.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/views.py",
 		"/Users/pablotoledo/Desktop/HD_TDT.html",
 		"/Volumes/KESU/LM2ºAÑO/Python/peton.py"
 	],
@@ -93,10 +125,67 @@
 			[
 				{
 					"buffer": 0,
+					"file": "src/templates/inicio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/boletin/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/boletin/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
 						"regions":
 						{
 						},
@@ -109,13 +198,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -127,7 +216,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -198,7 +287,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 235.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
