@@ -2,7 +2,10 @@
 {{ titulo }} <br/>
 {{ request.user }}
 
+
+{% if form %}
 <form method="POST" action="">{% csrf_token %}
 {{ el_form.as_p }}
 <input type="submit" name="Enviar" />
 </form>
+{% endif %}
