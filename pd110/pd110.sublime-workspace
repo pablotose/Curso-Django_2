@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"form_",
+				"form_email"
+			],
+			[
+				"mensaj",
+				"mensaje_email"
+			],
+			[
+				"Valida",
+				"ValidationError"
+			],
+			[
+				"email",
+				"email_base"
+			],
+			[
 				"fo",
 				"forms"
 			]
@@ -15,7 +31,7 @@
 			"file": "src/templates/inicio.html",
 			"settings":
 			{
-				"buffer_size": 204,
+				"buffer_size": 771,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -24,16 +40,46 @@
 			"file": "src/boletin/views.py",
 			"settings":
 			{
-				"buffer_size": 1061,
+				"buffer_size": 1967,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/boletin/models.py",
+			"file": "src/pd110/settings.py",
 			"settings":
 			{
-				"buffer_size": 298,
+				"buffer_size": 3596,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 2053,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/head_css.html",
+			"settings":
+			{
+				"buffer_size": 225,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% load static %}\n\n<script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>\n      <script>window.jQuery || document.write('<script src=\"/docs/4.4/assets/js/vendor/jquery.slim.min.js\"><\\/script>')</script><script src=\"/docs/4.4/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm\" crossorigin=\"anonymous\"></script>",
+			"file": "src/templates/javascript.html",
+			"file_size": 0,
+			"file_write_time": 132324148604861873,
+			"settings":
+			{
+				"buffer_size": 501,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -73,16 +119,21 @@
 	[
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src",
-		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin",
-		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110"
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/templates",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/static_env",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/static_env/static_root"
 	],
 	"file_history":
 	[
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/templates/navbar.html",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/forms.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110/urls.py",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/templates/forms.html",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/static_pro/static/css/navbar-top.css",
+		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/static_pro/static/css/bootstrap.min.css",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/models.py",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110/settings.py",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/admin.py",
-		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/pd110/urls.py",
 		"/Users/pablotoledo/Documents/GitHub/Curso-Django_2/pd110/src/boletin/views.py",
 		"/Users/pablotoledo/Desktop/HD_TDT.html",
 		"/Volumes/KESU/LM2ºAÑO/Python/peton.py"
@@ -93,7 +144,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
 		]
@@ -129,15 +180,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 204,
+						"buffer_size": 771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								512,
+								512
 							]
 						],
 						"settings":
@@ -157,48 +208,137 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1061,
+						"buffer_size": 1967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								690,
-								690
+								1123,
+								1123
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/pd110/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3419,
+								3419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1505.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1952,
+								1952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 372.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/boletin/models.py",
+					"buffer": 4,
+					"file": "src/templates/head_css.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 298,
+						"buffer_size": 225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								49,
+								49
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/javascript.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -287,7 +427,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 134.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
