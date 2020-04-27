@@ -4,10 +4,15 @@
 {% block head_title %}Welcome{% endblock %}
 
 {% block jumbotron_content %}
-          <h1>Inicio</h1>
-          <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-          <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">View navbar docs &raquo;</a>
-
+<div class='row'>
+	<div class='col-sm-6'>
+          <h1>Prueba Django 3.0.5</h1>
+          <p class="lead">Esta página está creada a partir del proyecto Django para
+          el módulo de Lenguaje de Marcas.</p>
+          <a class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">Probar aquí &raquo;</a>
+    </div>
+<div class="col-sm-6" style="background-color: black; height: 300px;"></div>
+</div>
 {% endblock %}
 
 {% block jumbotron %}
@@ -23,6 +28,7 @@ Inicia sesion
 
 
 {% block content %}
+<p>{{ titulo }}</p>
 <form method="POST" action="">{% csrf_token %}
 {{ el_form|crispy }}
 <input type="submit" name="Enviar" />
