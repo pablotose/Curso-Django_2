@@ -3,7 +3,9 @@
 
 {% block head_title %}Welcome{% endblock %}
 
-{% block jumbotron_content %}
+{% block jumbotron %}
+<div class="jumbotron">
+
 <div class='row'>
 	<div class='col-sm-6'>
           <h1>Prueba Django 3.0.5</h1>
@@ -13,12 +15,11 @@
     </div>
 <div class="col-sm-6" style="background-color: black; height: 300px;"></div>
 </div>
+</div>
 {% endblock %}
 
-{% block jumbotron %}
 {{ block.super }}
 Inicia sesion
-{% endblock %}
 
 <!--<h1>Hola mundo</h1>-->
 {{ titulo }} <br/>
