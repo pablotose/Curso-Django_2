@@ -12,6 +12,10 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-static/">
 
+<style type="text/css">
+{% block style %}{% endblock %}
+</style>
+
 {% include "head_css.html" %}
 
     <!-- Favicons -->
@@ -47,11 +51,12 @@
   <body>
 {% include "navbar.html" %}
 
-<main role="main" class="container-fluid">
-
 {% block jumbotron %}
 
 {% endblock %}
+<main role="main" class="container-fluid">
+
+
 
 {% block content %}
 {% endblock %}

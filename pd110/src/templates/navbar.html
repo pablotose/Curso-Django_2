@@ -20,11 +20,13 @@
 
     {% if not request.user.is_authenticated and not "/accounts/login" in request.get_full_path %}
     <form class="navbar-form"  method="POST" action="{% url 'auth_login' %}">{% csrf_token %}
-      <div class="form-group">
-        <input type="text" class="form-control" name="username" placeholder="Usuario" />
-      </div> 
-      <div class="form-group">
-        <input type="password" class="form-control" name="password" placeholder="Contraseña" />
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" name="username" placeholder="Usuario">
+        </div>
+        <div class="col">
+          <input type="password" class="form-control" name="password" placeholder="Contraseña">
+        </div>
       </div>
       <button type="submit" class="btn btn-primary">Inicia sesión</button>
     </form>
